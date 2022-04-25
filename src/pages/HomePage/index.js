@@ -28,7 +28,7 @@ const HomePage = () => {
       if (result[el].length > maxLength) maxLength = result[el].length;
     });
 
-	//Random colors array for each abv value --> 1-5 color --> bknz.HomePage.css color1, color2 ... color5
+	//Random colors array for each abv value --> 1-5 color --> HomePage.css > color1, color2 ... color5
 	  Object.keys(result).forEach(() => {
 		  colors.push(Math.ceil(Math.random() * 5));
   	});

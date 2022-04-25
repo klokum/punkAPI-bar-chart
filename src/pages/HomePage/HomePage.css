@@ -1,0 +1,77 @@
+.barchart-Wrapper {
+    display: table;
+    position: relative;
+    margin: 50px 0;
+    height: 252px;
+    
+  }
+  .barChart-Container {
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    padding-left: 15px;
+  }
+  .barchart {
+   display: table;
+   table-layout: fixed;
+   height: 100%;
+   width: 100%;
+   border-bottom: 3px solid tomato;
+  }
+  .barchart-Col {
+    position: relative;
+    vertical-align: bottom;
+    display: table-cell;
+    height: 100%;
+    border-left: 4px;
+  }
+
+  .barchart-ColText
+  {
+    display: flex;
+    justify-content: center;
+    color: darkred;
+    font-weight: bold;
+  }
+
+  .barchart-Bar {
+    position: relative;
+    height: 0;
+    width: 50px;
+    margin: auto;
+  }
+
+  .barchart-BarFooter {
+    position: absolute;
+    text-align: center;
+    height: 10%;
+    width: 100%;
+  }
+  .barchart-BarFooter h3 {
+    color: darkred;
+  }
+
+  label{
+    display: flex;
+    font-weight: bold;
+    margin-left: -50px;
+    margin-top: -18px;
+    font-size: large;
+    
+  }
+
+  .color1 {
+    background-color: greenyellow;
+  }
+  .color2 {
+    background-color: peachpuff;
+  }
+  .color3 {
+    background-color: darkolivegreen;
+  }
+  .color4 {
+    background-color: cornflowerblue;
+  }
+  .color5 {
+    background-color: deepskyblue;
+  }
